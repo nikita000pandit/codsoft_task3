@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+color:white;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.mainContainer{
+width:22.30vw;
+height:71vh;
+border-radius: 10px;
+border:none;
+outline:none;
+background-color: black;
+margin-top:20vh;
+box-shadow:1px 1px 10px  5px  gray ;
+display:flex;
+flex-direction: column;
+flex-wrap:wrap;
+
+}
+.textArea{
+color:white;
+width:100%;
+border:0;
+outline:none;
+font-size:20px;
+background-color: black;
+height:15vh;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+overflow: auto;
+overflow-y:hidden;
+scroll-behavior: smooth;
+}
+.textArea::-webkit-scrollbar{
+display: none;
+}
+
+.buttons{
+width:100%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+height: 56vh;
+display: flex;
+flex-wrap: wrap;
+padding:10px;
+}
+.margin{
+    margin-right: 10px;
+}
+.btn1{
+box-shadow: 1px 1px 1px gray;
+color:white;
+width:4vw;
+height:8vh;
+border:0;
+outline:0;
+margin-bottom: 10px;
+border-radius: 50%;
+}
+.change{
+background-color: red;
+}
+.gray{
+background-color: rgb(57, 55, 55);
+}
+.lightBlack{
+background-color: rgb(29, 29, 29);
+}
